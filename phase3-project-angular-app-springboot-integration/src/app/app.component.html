@@ -1,0 +1,58 @@
+<div class="jumbotron">
+  <h1 class="display-4">Welcome to {{title}}</h1>
+
+  <!-- <hr class="my-4" noshade> -->
+ 
+</div>
+<div class="container">
+<ul class="nav justify-content-center">
+  <!-- for purchase controller -->
+  <p>purchase Table</p>
+  <li class="nav-item"><a routerLink="/addPurchase" class="nav-link">Add Purchase</a></li>
+  <li class="nav-item"><a routerLink="/deletePurchase" class="nav-link">Delete Purchase</a></li>
+  <li class="nav-item"><a routerLink="/updatePurchase" class="nav-link">Update Purchase</a></li>
+  <li class="nav-item"><a routerLink="/purchaseList" class="nav-link">view All Purchases</a></li>
+  
+  <div class="container">
+  <hr size="30" noshade> 
+  </div>
+   
+  <!-- for product controller -->
+  <p>product Table</p>
+  <li class="nav-item"><a routerLink="/addProduct" class="nav-link">Add product</a></li>
+  <li class="nav-item"><a routerLink="/deleteProduct" class="nav-link">Delete product</a></li>
+  <li class="nav-item"><a routerLink="/updateProduct" class="nav-link">Update product</a></li>
+  <li class="nav-item"><a routerLink="/productList" class="nav-link">view All products</a></li>
+
+
+
+  <div class="container">
+    <hr size="30" noshade> 
+    </div>
+     
+    <!-- for category controller -->
+    <p>Category Table</p>
+    <li class="nav-item"><a routerLink="/addCategory" class="nav-link">Add category</a></li>
+    <li class="nav-item"><a routerLink="/deleteCategory" class="nav-link">Delete category</a></li>
+    <li class="nav-item"><a routerLink="/updateCategory" class="nav-link">Update category</a></li>
+    <li class="nav-item"><a routerLink="/categoryList" class="nav-link">view All categories</a></li>
+     
+    <div class="container">
+      <hr size="30" noshade> 
+      </div>
+       
+      <!-- for user controller -->
+      <p>User Table</p>
+      <li class="nav-item"><a routerLink="/addUser" class="nav-link">Add user</a></li>
+      <li class="nav-item"><a routerLink="/deleteUser" class="nav-link">Delete user</a></li>
+      <li class="nav-item"><a routerLink="/updateUser" class="nav-link">Update user</a></li>
+      <li class="nav-item"><a routerLink="/userList" class="nav-link">view All users</a></li>
+       
+   
+
+  
+</ul>
+</div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,12 @@
+<div class="container">
+    <h3><u>Enter user details Below to in DB</u></h3>
+    
+   
+    <input class="form-control" type="text" [(ngModel)]="user.fname" placeholder="Enter user first name"/>
+    <input class="form-control" type="text" [(ngModel)]="user.lname" placeholder="Enter user last name"/>
+    <input class="form-control" type="text" [(ngModel)]="user.emailId" placeholder="Enter user email id"/>
+    <input class="form-control" type="text" [(ngModel)]="user.address" placeholder="Enter user address"/>
+   
+    <button class="btn btn-primary" type="button" (click)="addUser()">Add user</button>
+
+</div>

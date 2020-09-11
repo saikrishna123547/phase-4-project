@@ -1,0 +1,21 @@
+<div class="container">
+    <h3><u>List of all categories</u></h3>
+    <table class="table table-light table-bordered table-hover">
+        <thead class="thead-light">
+            <tr>
+                <th>ID</th>
+                <th>CATEGORY NAME</th>
+               
+
+            </tr>
+        </thead>
+    
+   <tbody>
+    <tr *ngFor="let category of categoryList">
+    <td>{{category.id}}</td>
+    <td>{{category.name}}</td>
+    
+    </tr>
+   </tbody>
+</table>
+</div>

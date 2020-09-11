@@ -1,0 +1,10 @@
+<div class="container">
+    <h3><u>Enter purchase details Below to update in DB</u></h3>
+    <input class="form-control" type="text" [(ngModel)]="purchase.id" placeholder="Enter purchase id "/>
+   
+    <input class="form-control" type="text" [(ngModel)]="purchase.date" placeholder="Enter purchase date in the format only (YYYY-MM-DD)"/>
+   
+    <input class="form-control" type="text" [(ngModel)]="purchase.total" placeholder="Enter purchase total"/>
+    <button class="btn btn-primary" type="button" (click)="updatePurchase()">Update Purchase</button>
+
+</div>

@@ -1,0 +1,31 @@
+<div class="container">
+    <h3><u>List of all users</u></h3>
+    <table class="table table-light table-bordered table-hover">
+        <thead class="thead-light">
+            <tr>
+                <th>ID</th>
+                <th>FIRST NAME</th>
+                <th>LAST NAME</th>
+                <th>EMAIL ID</th>
+                <th>ADDRESS</th>
+
+                
+               
+
+            </tr>
+        </thead>
+    
+   <tbody>
+    <tr *ngFor="let user of userList">
+    <td>{{user.id}}</td>
+    <td>{{user.fname}}</td>
+    
+    <td>{{user.lname}}</td>
+    
+    <td>{{user.emailId}}</td>
+    <td>{{user.address}}</td>
+    
+    </tr>
+   </tbody>
+</table>
+</div>

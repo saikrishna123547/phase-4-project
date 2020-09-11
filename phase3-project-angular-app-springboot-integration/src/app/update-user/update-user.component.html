@@ -1,0 +1,15 @@
+<div class="container">
+    <h3><u>Enter user details Below to update into the  DB</u></h3>
+    <input class="form-control" type="text" [(ngModel)]="user.id" placeholder="Enter user id"/>
+    <input class="form-control" type="text" [(ngModel)]="user.fname" placeholder="Enter first name"/>
+    
+    <input class="form-control" type="text" [(ngModel)]="user.lname" placeholder="Enter last name"/>
+    
+    <input class="form-control" type="text" [(ngModel)]="user.emailId" placeholder="Enter email id"/>
+    
+    <input class="form-control" type="text" [(ngModel)]="user.address" placeholder="Enter address"/>
+   
+    
+    <button class="btn btn-primary" type="button" (click)="updateUser()">Update user</button>
+
+</div>

@@ -1,0 +1,11 @@
+<div class="container">
+    <h3><u>Enter products details Below to in DB</u></h3>
+    
+   
+    <input class="form-control" type="text" [(ngModel)]="product.name" placeholder="Enter product name"/>
+    <input class="form-control" type="text" [(ngModel)]="product.price" placeholder="Enter product price"/>
+    <input class="form-control" type="text" [(ngModel)]="product.dateAdded" placeholder="Enter product date in the format only (YYYY-MM-DD)"/>
+    
+    <button class="btn btn-primary" type="button" (click)="addProduct()">Add Product</button>
+
+</div>
